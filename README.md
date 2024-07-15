@@ -1,15 +1,23 @@
-Data Handling and Visualization: 
+# MATLAB Analysis of Power Plant
 
-Import the dataset into MATLAB, segregate data into individual variables, and generate scatterplots to scrutinize potential linear relationships between energy output and other environmental variables, facilitating a deeper understanding of how these factors influence power output.
+## Overview
+This repository contains MATLAB scripts and data files for analyzing power plant data. The analysis includes data handling, visualization, model development, and advanced modeling techniques such as Principal Component Analysis (PCA).
 
-Model Development and Evaluation: 
+## Features
+- **Data Handling and Visualization:** Import data, segregate variables, and generate scatterplots.
+- **Model Development and Evaluation:** Develop linear regression models, compute coefficients, and evaluate using RMSE.
+- **Advanced Modeling:** Construct comprehensive linear models and explore non-linear relationships.
+- **PCA:** Execute PCA to understand data structure and dimensionality reduction.
 
-Develop individual linear regression models for each predictor against the response variable, compute model coefficients, plot regression lines for visual model assessment, use RMSE for model evaluation, and make predictions to test the models' reliability with new data.
+## Files
+- `Power_plant_data.xlsx`
+- `Powerplantdata.mat`
+- `projectfile.mlx`
 
-Advanced Modeling Techniques: 
+## Usage
+1. Clone the repository.
+2. Open MATLAB and navigate to the repository folder.
+3. Run the scripts for analysis.
 
-Construct a comprehensive linear model incorporating all predictors, examine the model coefficients, suggest and evaluate alternative models using combinations of predictors, and investigate non-linear modeling for identified non-linear relationships from the scatterplots.
-
-Principal Component Analysis (PCA): 
-
-Execute PCA to better comprehend data structure, calculate the variance explained by principal components, plot and interpret component loadings and scores, thus gaining insights into data dimensionality and potential reduction strategies.
+## License
+This project is licensed under the MIT License.
